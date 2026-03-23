@@ -1,0 +1,33 @@
+{
+  "name": "theosis",
+  "version": "0.1.0",
+  "description": "A terminal roguelike where virtue stats are combat stats",
+  "main": "dist/theosis.js",
+  "scripts": {
+    "dev": "tsx watch src/index.tsx",
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "roguelike",
+    "terminal",
+    "game"
+  ],
+  "author": "IFAKA",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "ink": "^6.8.0",
+    "react": "^19.2.4",
+    "rot-js": "^2.2.1",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.27.4",
+    "tsx": "^4.21.0"
+  }
+}
