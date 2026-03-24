@@ -13,50 +13,50 @@ Conversion path: Fun roguelike → "Kenosis build OP" → google Orthodox theolo
 
 ## Current Status
 
-**Active milestone: M1 — Core Engine**
-**Current week: Week 1 — Dungeon + Player State**
-**Last commit:** `12eaf92` — per-milestone implementation plans added
+**Active milestone: M2 — Content Layer**
+**Current week: —**
+**Last commit:** `4c8ae13` — M1 complete, full engine loop verified
 
 ## Milestone Progress
 
 | Milestone | Status | Commit | Plan |
 |---|---|---|---|
 | M0: Pre-Production | ✅ COMPLETE | `6fbd01d` | `docs/plans/milestone-0-preproduction.md` |
-| M1: Core Engine | 🔄 IN PROGRESS | — | `docs/plans/milestone-1-core-engine.md` |
+| M1: Core Engine | ✅ COMPLETE | `4c8ae13` | `docs/plans/milestone-1-core-engine.md` |
 | M2: Content Layer | ⬜ NOT STARTED | — | `docs/plans/milestone-2-content-layer.md` |
 | M3: UI Layer | ⬜ NOT STARTED | — | `docs/plans/milestone-3-ui-layer.md` |
 | M4: Launch Prep | ⬜ NOT STARTED | — | `docs/plans/milestone-4-launch-prep.md` |
 
 ## M1 Task Tracker
 
-### Week 1: Dungeon + Player State
-- [ ] `src/engine/player.ts` — PlayerState type + factory functions
-- [ ] `src/engine/virtue/stats.ts` — VirtueName, VIRTUE_DISPLAY, MAX_VIRTUE
-- [ ] `src/engine/virtue/progression.ts` — baseline tracking, theosis check
-- [ ] `src/engine/dungeon/generator.ts` — rot-js Digger map generation
-- [ ] `src/engine/dungeon/floor.ts` — FloorState, createFloor, isExitReached
-- [ ] `src/engine/dungeon/fov.ts` — FOV wrapper, VisibleTiles
+### Week 1: Dungeon + Player State ✅
+- [x] `src/engine/player.ts` — PlayerState type + factory functions
+- [x] `src/engine/virtue/stats.ts` — VirtueName, VIRTUE_DISPLAY, MAX_VIRTUE
+- [x] `src/engine/virtue/progression.ts` — baseline tracking, theosis check
+- [x] `src/engine/dungeon/generator.ts` — rot-js Digger map generation
+- [x] `src/engine/dungeon/floor.ts` — FloorState, createFloor, isExitReached
+- [x] `src/engine/dungeon/fov.ts` — FOV wrapper, VisibleTiles
 
-### Week 2: Enemy System
-- [ ] `src/engine/enemies/types.ts` — EnemyTemplate, 5 base enemies
-- [ ] `src/engine/enemies/registry.ts` — spawn by floor, difficulty scaling
-- [ ] `src/engine/combat/ai.ts` — EnemyIntent, telegraph logic
-- [ ] `src/engine/combat/actions.ts` — 5 L1 virtue actions
-- [ ] `src/engine/combat/damage.ts` — damage calc, weakness exploitation
+### Week 2: Enemy System ✅
+- [x] `src/engine/enemies/types.ts` — EnemyTemplate, 5 base enemies
+- [x] `src/engine/enemies/registry.ts` — spawn by floor, difficulty scaling
+- [x] `src/engine/combat/ai.ts` — EnemyIntent, telegraph logic
+- [x] `src/engine/combat/actions.ts` — 5 L1 virtue actions
+- [x] `src/engine/combat/damage.ts` — damage calc, weakness exploitation
 
-### Week 3: Combat Loop
-- [ ] `src/engine/scheduler.ts` — TurnScheduler wrapping rot-js
-- [ ] `src/engine/combat/effects.ts` — ActiveEffect, tick, apply
-- [ ] `src/engine/combat/resolver.ts` — playerTurn, enemyTurn, checkCombatEnd
-- [ ] `src/data/abilities.json` — L1-L10 per virtue (50 total)
-- [ ] Death → baseline rise → new run flow (extend progression.ts)
+### Week 3: Combat Loop ✅
+- [x] `src/engine/scheduler.ts` — TurnScheduler wrapping rot-js
+- [x] `src/engine/combat/effects.ts` — ActiveEffect, tick, apply
+- [x] `src/engine/combat/resolver.ts` — playerTurn, enemyTurn, checkCombatEnd
+- [x] `src/data/abilities.json` — L1-L10 per virtue (50 total)
+- [x] Death → baseline rise → new run flow (extend progression.ts)
 
-### Week 4: Encounter System
-- [ ] `src/engine/encounter/types.ts` — Encounter, Choice, Effect types
-- [ ] `src/engine/encounter/resolver.ts` — applyChoice, selectEncounters
-- [ ] 5 placeholder encounters (1 per category)
-- [ ] `src/engine/virtue/builds.ts` — archetype detection
-- [ ] End-to-end loop test: spawn → encounter → combat → death → resurrection
+### Week 4: Encounter System ✅
+- [x] `src/engine/encounter/types.ts` — Encounter, Choice, Effect types
+- [x] `src/engine/encounter/resolver.ts` — applyChoice, selectEncounters
+- [x] 5 placeholder encounters (1 per category)
+- [x] `src/engine/virtue/builds.ts` — archetype detection
+- [x] End-to-end loop test: spawn → encounter → combat → death → resurrection
 
 ## How to Resume After /clear
 
