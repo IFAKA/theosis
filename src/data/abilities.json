@@ -1,0 +1,62 @@
+{
+  "humility": [
+    { "level": 1, "name": "Prostration", "damageMultiplier": 0.8, "description": "You prostrate before God. The enemy's next attack is weakened." },
+    { "level": 2, "name": "Kenosis", "damageMultiplier": 0.9, "description": "Self-emptying strike. You pour yourself out, gaining strength in the void." },
+    { "level": 3, "name": "Stillness", "damageMultiplier": 1.0, "description": "From inner silence, a precise and devastating blow." },
+    { "level": 4, "name": "Tears of Repentance", "damageMultiplier": 1.1, "description": "Holy grief dissolves the enemy's defenses." },
+    { "level": 5, "name": "Meekness", "damageMultiplier": 1.2, "description": "The meek inherit the earth — and deal significant damage." },
+    { "level": 6, "name": "Self-Reproach", "damageMultiplier": 1.3, "description": "You take the blame willingly. Your enemy cannot understand this strength." },
+    { "level": 7, "name": "Holy Foolishness", "damageMultiplier": 1.5, "description": "Foolishness for Christ — unpredictable and devastating." },
+    { "level": 8, "name": "Non-Acquisition", "damageMultiplier": 1.6, "description": "You release all attachment. The demon has nothing to grasp." },
+    { "level": 9, "name": "Apophatic Strike", "damageMultiplier": 1.8, "description": "You attack through what you are not. Pure negation as weapon." },
+    { "level": 10, "name": "Theotic Annihilation", "damageMultiplier": 2.0, "description": "Total self-offering. The pride-demon cannot survive this light." }
+  ],
+  "courage": [
+    { "level": 1, "name": "Stand Firm", "damageMultiplier": 1.2, "description": "You hold the line. Gain 1 Courage on kill." },
+    { "level": 2, "name": "Holy Boldness", "damageMultiplier": 1.3, "description": "Parrhesia — the freedom of speech before God and men." },
+    { "level": 3, "name": "Witness", "damageMultiplier": 1.4, "description": "You bear witness to the truth with your body." },
+    { "level": 4, "name": "Martyric Strike", "damageMultiplier": 1.5, "description": "The martyr does not flinch. Your blow carries that resolve." },
+    { "level": 5, "name": "Fearless Love", "damageMultiplier": 1.6, "description": "Perfect love casts out fear — and your enemy." },
+    { "level": 6, "name": "Confessor's Blow", "damageMultiplier": 1.7, "description": "You confess the faith with your fists." },
+    { "level": 7, "name": "Warrior's Cross", "damageMultiplier": 1.8, "description": "You bear the cross willingly. It becomes your weapon." },
+    { "level": 8, "name": "Harrowing", "damageMultiplier": 2.0, "description": "As Christ harrowed hell, you descend to strike the deep." },
+    { "level": 9, "name": "Unconquerable", "damageMultiplier": 2.2, "description": "Aniketos — the undefeated. Nothing breaks you now." },
+    { "level": 10, "name": "Resurrection Charge", "damageMultiplier": 2.5, "description": "Death has no dominion. Your final blow carries eternal force." }
+  ],
+  "temperance": [
+    { "level": 1, "name": "Fast", "damageMultiplier": 1.0, "description": "Abstinence sharpens the will. Removes 1 debuff." },
+    { "level": 2, "name": "Nepsis", "damageMultiplier": 1.1, "description": "Watchfulness — you wait for the perfect moment." },
+    { "level": 3, "name": "Enkrateia", "damageMultiplier": 1.2, "description": "Self-mastery. Your body obeys your spirit completely." },
+    { "level": 4, "name": "Apatheia", "damageMultiplier": 1.3, "description": "Freedom from passion — you strike without anger or fear." },
+    { "level": 5, "name": "Holy Sobriety", "damageMultiplier": 1.4, "description": "Sober in spirit and devastating in precision." },
+    { "level": 6, "name": "Measured Wrath", "damageMultiplier": 1.5, "description": "Anger in its right proportion — righteous and controlled." },
+    { "level": 7, "name": "Controlled Burning", "damageMultiplier": 1.6, "description": "The passions channeled, not suppressed. Focused destruction." },
+    { "level": 8, "name": "Purified Desire", "damageMultiplier": 1.7, "description": "All longing redirected to God — nothing wasted on the enemy." },
+    { "level": 9, "name": "Hesychia", "damageMultiplier": 1.9, "description": "Perfect stillness from which all things flow." },
+    { "level": 10, "name": "Deified Matter", "damageMultiplier": 2.1, "description": "Your body, fully sanctified, becomes an instrument of grace." }
+  ],
+  "wisdom": [
+    { "level": 1, "name": "Discernment", "damageMultiplier": 1.0, "description": "You see through the mask. Reveals weakness if Wisdom ≥ 3." },
+    { "level": 2, "name": "Logos Strike", "damageMultiplier": 1.1, "description": "The Word made weapon. Precise as divine reason." },
+    { "level": 3, "name": "Theoria", "damageMultiplier": 1.2, "description": "Contemplative vision — you see the enemy's true nature." },
+    { "level": 4, "name": "Anagoge", "damageMultiplier": 1.3, "description": "Upward movement — you elevate the fight above its passions." },
+    { "level": 5, "name": "Philokalia", "damageMultiplier": 1.4, "description": "Love of the beautiful — you strike at the ugly without mercy." },
+    { "level": 6, "name": "Doxology", "damageMultiplier": 1.5, "description": "Praise as weapon. The demon cannot abide glory given to God." },
+    { "level": 7, "name": "Cataphatic Light", "damageMultiplier": 1.6, "description": "You name the good the enemy denies. Truth as strike." },
+    { "level": 8, "name": "Uncreated Beam", "damageMultiplier": 1.8, "description": "The Tabor Light — not from you, but through you." },
+    { "level": 9, "name": "Pneumatic Sight", "damageMultiplier": 2.0, "description": "Spiritual eyes fully open. Nothing is hidden from you." },
+    { "level": 10, "name": "Divine Sophia", "damageMultiplier": 2.2, "description": "Wisdom herself strikes through you. The enemy has no counter." }
+  ],
+  "love": [
+    { "level": 1, "name": "Agape", "damageMultiplier": 0.6, "description": "Love without condition — heal 2 HP." },
+    { "level": 2, "name": "Philoxenia", "damageMultiplier": 0.8, "description": "Love of the stranger — even your enemy is someone to be redeemed." },
+    { "level": 3, "name": "Intercession", "damageMultiplier": 0.9, "description": "You pray for the fallen. The prayer lands like a blow." },
+    { "level": 4, "name": "Sacrifice", "damageMultiplier": 1.0, "description": "You offer yourself. The demon does not understand this exchange." },
+    { "level": 5, "name": "Eros Transformed", "damageMultiplier": 1.1, "description": "Desire fully turned toward God — nothing else has power." },
+    { "level": 6, "name": "Mercy Strike", "damageMultiplier": 1.2, "description": "You strike mercifully — quickly, cleanly, without cruelty." },
+    { "level": 7, "name": "Communion", "damageMultiplier": 1.4, "description": "You share yourself with the enemy. They cannot hold that light." },
+    { "level": 8, "name": "Theanthropy", "damageMultiplier": 1.6, "description": "God-man love: divine and human united in your strike." },
+    { "level": 9, "name": "Perichoresis", "damageMultiplier": 1.8, "description": "Mutual indwelling — you move through the enemy's defenses." },
+    { "level": 10, "name": "Divine Eros", "damageMultiplier": 2.0, "description": "The consuming love of God. Nothing survives it." }
+  ]
+}
