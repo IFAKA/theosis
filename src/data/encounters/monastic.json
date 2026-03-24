@@ -1,0 +1,14 @@
+[
+  {
+    "id": "mn-001",
+    "category": "monastic",
+    "title": "The Rule",
+    "narrative": "An abbot presents you with a schedule: vigils at midnight, prostrations at dawn, one meal, no conversation after Compline. He does not ask if you agree. He simply hands you the timetable.",
+    "orthodoxConcept": "Typikon",
+    "choices": [
+      { "id": "c1", "text": "Accept the rule without question", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c2", "text": "Ask why the rule is structured this way", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Offer to take an additional fast", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
+  }
+]

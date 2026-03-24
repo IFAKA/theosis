@@ -1,0 +1,14 @@
+[
+  {
+    "id": "df-001",
+    "category": "desert-fathers",
+    "title": "The Hesychast",
+    "narrative": "An elder sits in silence. He does not look up when you enter. A single oil lamp burns. You have been standing here for what feels like hours.",
+    "orthodoxConcept": "Hesychasm",
+    "choices": [
+      { "id": "c1", "text": "Sit beside him in silence", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Ask him to teach you", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Leave him undisturbed", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  }
+]

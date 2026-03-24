@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ic-001",
+    "category": "icons",
+    "title": "The Weeping Icon",
+    "narrative": "An icon of the Theotokos stands in the hallway. Myrrh flows from her eyes. You do not know why. You stand before her and feel that she is looking at you specifically.",
+    "orthodoxConcept": "Theotokos",
+    "choices": [
+      { "id": "c1", "text": "Kneel and pray", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Ask her intercession for the fallen", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Touch the icon with reverence", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
+  }
+]

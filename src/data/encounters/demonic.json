@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dm-001",
+    "category": "demonic",
+    "title": "The Voice in the Dark",
+    "narrative": "A voice speaks from the shadows. It knows your name. It lists your failures one by one, accurately. It ends with: 'You will never be enough.'",
+    "orthodoxConcept": "Logismoi",
+    "choices": [
+      { "id": "c1", "text": "Rebuke it in the name of Christ", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Agree with it and offer repentance", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Ignore it and press forward", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  }
+]

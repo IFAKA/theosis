@@ -1,0 +1,14 @@
+[
+  {
+    "id": "mr-001",
+    "category": "martyrdom",
+    "title": "The Last Choice",
+    "narrative": "A figure stands at a crossroads. He was a soldier once. He was offered his life in exchange for a single denial. He refused. His eyes are calm. He looks at you and asks: 'What would you have done?'",
+    "orthodoxConcept": "Martyria",
+    "choices": [
+      { "id": "c1", "text": "'I would have died with you.'", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "'I do not know. Lord, have mercy.'", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "You remain silent and bow your head.", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  }
+]
