@@ -6,6 +6,15 @@ export type VirtueStats = {
   love: number;
 };
 
+export type RunStats = {
+  runNumber: number;
+  floorsCleared: number;
+  enemiesDefeated: number;
+  killedBy: string | null;
+  peakVirtues: VirtueStats;
+  encountersSeen: string[];
+};
+
 export type PlayerState = {
   hp: number;
   maxHp: number;
@@ -16,7 +25,19 @@ export type PlayerState = {
   floorCount: number;
   isDead: boolean;
   hasAchievedTheosis: boolean;
+  currentRunStats: RunStats;
 };
+
+function initialRunStats(runNumber: number, virtues: VirtueStats): RunStats {
+  return {
+    runNumber,
+    floorsCleared: 0,
+    enemiesDefeated: 0,
+    killedBy: null,
+    peakVirtues: { ...virtues },
+    encountersSeen: [],
+  };
+}
 
 export function createInitialPlayer(): PlayerState {
   const virtues: VirtueStats = { humility: 1, courage: 1, temperance: 1, wisdom: 1, love: 1 };
@@ -30,15 +51,18 @@ export function createInitialPlayer(): PlayerState {
     floorCount: 0,
     isDead: false,
     hasAchievedTheosis: false,
+    currentRunStats: initialRunStats(1, virtues),
   };
 }
 
 export function resetForNewRun(state: PlayerState): PlayerState {
+  const nextRun = state.runCount + 1;
   return {
     ...state,
     hp: state.maxHp,
     virtues: { ...state.baseline },
     floor: 1,
     isDead: false,
+    currentRunStats: initialRunStats(nextRun, state.baseline),
   };
 }
