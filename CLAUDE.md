@@ -13,9 +13,9 @@ Conversion path: Fun roguelike → "Kenosis build OP" → google Orthodox theolo
 
 ## Current Status
 
-**Active milestone: M2 — Content Layer**
+**Active milestone: M3 — UI Layer**
 **Current week: —**
-**Last commit:** `4c8ae13` — M1 complete, full engine loop verified
+**Last commit:** `a104dcb` — M2 complete, all content + systems
 
 ## Milestone Progress
 
@@ -23,7 +23,7 @@ Conversion path: Fun roguelike → "Kenosis build OP" → google Orthodox theolo
 |---|---|---|---|
 | M0: Pre-Production | ✅ COMPLETE | `6fbd01d` | `docs/plans/milestone-0-preproduction.md` |
 | M1: Core Engine | ✅ COMPLETE | `4c8ae13` | `docs/plans/milestone-1-core-engine.md` |
-| M2: Content Layer | ⬜ NOT STARTED | — | `docs/plans/milestone-2-content-layer.md` |
+| M2: Content Layer | ✅ COMPLETE | `a104dcb` | `docs/plans/milestone-2-content-layer.md` |
 | M3: UI Layer | ⬜ NOT STARTED | — | `docs/plans/milestone-3-ui-layer.md` |
 | M4: Launch Prep | ⬜ NOT STARTED | — | `docs/plans/milestone-4-launch-prep.md` |
 
