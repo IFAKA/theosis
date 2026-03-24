@@ -31,8 +31,9 @@ export function Combat({
   const { stdout } = useStdout();
   const cols = stdout?.columns ?? 80;
 
-  const hpFilled = Math.round((player.hp / player.maxHp) * Math.max(8, cols - 20));
-  const hpEmpty = Math.max(8, cols - 20) - hpFilled;
+  const barWidth = Math.min(40, Math.max(8, cols - 20));
+  const hpFilled = Math.round((player.hp / player.maxHp) * barWidth);
+  const hpEmpty = barWidth - hpFilled;
 
   const choices = actions.slice(0, 4).map(a => ({
     id: a.id,

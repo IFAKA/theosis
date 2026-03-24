@@ -22,6 +22,7 @@ import { EncounterScreen } from './ui/screens/Encounter.js';
 import { StatsScreen } from './ui/screens/Stats.js';
 import { DeathScreen } from './ui/screens/Death.js';
 import { TheosisScreen } from './ui/screens/Theosis.js';
+import { HelpOverlay } from './ui/components/HelpOverlay.js';
 
 // All encounter pools
 import desertFathersData from './data/encounters/desert-fathers.json' assert { type: 'json' };
@@ -85,15 +86,24 @@ function App() {
   const [currentEncounter, setCurrentEncounter] = useState<Encounter | null>(null);
   const [deathInfo, setDeathInfo] = useState<DeathInfo | null>(null);
   const [quitConfirm, setQuitConfirm] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
 
-  // Global Q handler (non-combat screens handle it themselves in some cases)
-  useInput((input) => {
+  // Global keyboard handler
+  useInput((input, key) => {
     if (quitConfirm) {
       if (input === 'y' || input === 'Y') exit();
       setQuitConfirm(false);
       return;
     }
-    if ((input === 'q' || input === 'Q') && screen !== 'theosis') {
+    if (input === '?') {
+      setShowHelp(h => !h);
+      return;
+    }
+    if (key.escape) {
+      if (showHelp) { setShowHelp(false); return; }
+      return;
+    }
+    if ((input === 'q' || input === 'Q') && screen !== 'theosis' && !showHelp) {
       setQuitConfirm(true);
     }
   });
@@ -102,6 +112,14 @@ function App() {
     return (
       <Box flexDirection="column" padding={2}>
         <Text color="#d4af37">Quit? [Y/N]</Text>
+      </Box>
+    );
+  }
+
+  if (showHelp) {
+    return (
+      <Box flexDirection="column" padding={1}>
+        <HelpOverlay screen={screen} />
       </Box>
     );
   }

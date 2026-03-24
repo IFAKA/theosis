@@ -13,6 +13,7 @@ export function MainMenu({ soundEnabled, onStart, onToggleSound }: MainMenuProps
     if (key.return || input === '\r') onStart();
     if (input === 's' || input === 'S') onToggleSound();
     if (input === 'q' || input === 'Q') exit();
+    // ? is handled globally in App
   });
 
   return (
@@ -40,6 +41,10 @@ export function MainMenu({ soundEnabled, onStart, onToggleSound }: MainMenuProps
         <Box>
           <Text color="#d4af37">[S]      </Text>
           <Text color="#e8e8e8">Sound: {soundEnabled ? 'ON' : 'OFF'}</Text>
+        </Box>
+        <Box>
+          <Text color="#d4af37">[?]      </Text>
+          <Text color="#e8e8e8">Controls</Text>
         </Box>
         <Box>
           <Text color="#d4af37">[Q]      </Text>

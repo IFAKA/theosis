@@ -22,9 +22,10 @@ export function DungeonMap({ floor, player, onFloorComplete, onCombatStart, onTa
   const cols = stdout?.columns ?? 80;
   const rows = stdout?.rows ?? 24;
 
-  const mapWidth = Math.min(floor.map.width, Math.floor(cols * 0.7));
+  const narrow = cols < 100;
+  const mapWidth = Math.min(floor.map.width, narrow ? 40 : Math.floor(cols * 0.7));
   const mapHeight = Math.min(floor.map.height, rows - 4);
-  const sidebarWidth = cols - mapWidth - 3;
+  const sidebarWidth = Math.max(16, cols - mapWidth - 3);
 
   const [playerX, setPlayerX] = useState(floor.playerX);
   const [playerY, setPlayerY] = useState(floor.playerY);
@@ -81,8 +82,8 @@ export function DungeonMap({ floor, player, onFloorComplete, onCombatStart, onTa
         </Box>
         <Box width={1}><Text> </Text></Box>
         <Box flexDirection="column" width={sidebarWidth}>
-          <Text color="#d4af37" bold>THEOSIS</Text>
-          <Box marginTop={1} flexDirection="column">
+          {!narrow && <Text color="#d4af37" bold>THEOSIS</Text>}
+          <Box marginTop={narrow ? 0 : 1} flexDirection="column">
             <Box>
               <Text color="#e8e8e8">HP: </Text>
               <Text color="#ef4444">{'█'.repeat(Math.max(0, hpFilled))}</Text>
@@ -94,7 +95,7 @@ export function DungeonMap({ floor, player, onFloorComplete, onCombatStart, onTa
             {VIRTUE_NAMES.map(v => (
               <VirtueBar
                 key={v}
-                name={VIRTUE_DISPLAY[v].label}
+                name={narrow ? VIRTUE_DISPLAY[v].label.slice(0, 4) : VIRTUE_DISPLAY[v].label}
                 value={player.virtues[v]}
                 max={10}
                 color={VIRTUE_DISPLAY[v].color}
@@ -102,14 +103,16 @@ export function DungeonMap({ floor, player, onFloorComplete, onCombatStart, onTa
               />
             ))}
           </Box>
-          <Box marginTop={1} flexDirection="column">
-            <Text color="#888888">Build:</Text>
-            <Text color="#d4af37">{build.name}</Text>
-          </Box>
+          {!narrow && (
+            <Box marginTop={1} flexDirection="column">
+              <Text color="#888888">Build:</Text>
+              <Text color="#d4af37">{build.name}</Text>
+            </Box>
+          )}
         </Box>
       </Box>
       <Box>
-        <Text color="#555555">WASD: Move  {'>'}: Exit  Tab: Stats  Q: Quit</Text>
+        <Text color="#555555">WASD: Move  {'>'}: Exit  Tab: Stats  ?: Help  Q: Quit</Text>
       </Box>
     </Box>
   );
