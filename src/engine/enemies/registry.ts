@@ -1,10 +1,12 @@
 import { RNG } from 'rot-js';
-import { BASE_ENEMIES } from './types.js';
 import type { EnemyTemplate } from './types.js';
+import enemiesData from '../../data/enemies.json' assert { type: 'json' };
+
+const ALL_ENEMIES = enemiesData as EnemyTemplate[];
 
 export function spawnEnemiesForFloor(floorNumber: number): EnemyTemplate[] {
-  const eligible = BASE_ENEMIES.filter(e => e.floorMinimum <= floorNumber);
-  if (eligible.length === 0) return [BASE_ENEMIES[0]];
+  const eligible = ALL_ENEMIES.filter(e => e.floorMinimum <= floorNumber);
+  if (eligible.length === 0) return [ALL_ENEMIES[0]];
 
   const count = 1 + Math.floor(RNG.getUniform() * 3); // 1-3
   const shuffled = RNG.shuffle([...eligible]);

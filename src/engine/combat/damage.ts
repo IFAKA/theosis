@@ -6,6 +6,10 @@ export function isWeaknessExploited(action: CombatAction, enemy: EnemyTemplate):
   return action.virtue === enemy.weakness;
 }
 
+export function isWeaknessRevealed(wisdomLevel: number): boolean {
+  return wisdomLevel >= 3;
+}
+
 export function calculateDamage(
   action: CombatAction,
   virtues: VirtueStats,

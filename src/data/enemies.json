@@ -1,0 +1,172 @@
+[
+  {
+    "id": "prelest",
+    "name": "Demon of Pride",
+    "orthodoxName": "Prelest",
+    "symbol": "P",
+    "weakness": "humility",
+    "baseHp": 12,
+    "baseDamage": 3,
+    "floorMinimum": 1,
+    "isElite": false,
+    "description": "The spirit of spiritual self-delusion. It twists your strengths into vanity, making virtue indistinguishable from pride.",
+    "intent": [
+      "Inflates your pride",
+      "Whispers of your superiority",
+      "Strikes at your humility"
+    ]
+  },
+  {
+    "id": "acedia",
+    "name": "Demon of Despair",
+    "orthodoxName": "Acedia",
+    "symbol": "A",
+    "weakness": "love",
+    "baseHp": 10,
+    "baseDamage": 2,
+    "floorMinimum": 1,
+    "isElite": false,
+    "description": "The noonday demon. It drains will and meaning from every act, making the path ahead feel pointless.",
+    "intent": [
+      "Drains your resolve",
+      "Weighs on your spirit",
+      "Whispers of futility"
+    ]
+  },
+  {
+    "id": "kenodoxia",
+    "name": "Demon of Vainglory",
+    "orthodoxName": "Kenodoxia",
+    "symbol": "K",
+    "weakness": "wisdom",
+    "baseHp": 14,
+    "baseDamage": 3,
+    "floorMinimum": 2,
+    "isElite": false,
+    "description": "The hunger for empty praise. It corrupts virtue into performance, making the audience more real than God.",
+    "intent": [
+      "Baits you to show off",
+      "Mocks your hidden worth",
+      "Demands an audience"
+    ]
+  },
+  {
+    "id": "thymos",
+    "name": "Demon of Anger",
+    "orthodoxName": "Thymos",
+    "symbol": "T",
+    "weakness": "temperance",
+    "baseHp": 16,
+    "baseDamage": 4,
+    "floorMinimum": 3,
+    "isElite": false,
+    "description": "Righteous wrath unchecked. It burns everything it passes through — friend and foe alike.",
+    "intent": [
+      "Lashes out furiously",
+      "Provokes without cause",
+      "Escalates relentlessly"
+    ]
+  },
+  {
+    "id": "porneia",
+    "name": "Demon of Lust",
+    "orthodoxName": "Porneia",
+    "symbol": "L",
+    "weakness": "courage",
+    "baseHp": 12,
+    "baseDamage": 3,
+    "floorMinimum": 3,
+    "isElite": false,
+    "description": "Disordered desire wearing the face of comfort. It confuses love with consumption, warmth with possession.",
+    "intent": [
+      "Entices with illusions",
+      "Weakens your resolve",
+      "Clouds your vision"
+    ]
+  },
+  {
+    "id": "prelest-elite",
+    "name": "Archon of Pride",
+    "orthodoxName": "Prelest",
+    "symbol": "P",
+    "weakness": "humility",
+    "baseHp": 24,
+    "baseDamage": 5,
+    "floorMinimum": 5,
+    "isElite": true,
+    "description": "A greater prelest — ancient and subtle. It has perfected the art of appearing as divine revelation while exalting the self.",
+    "intent": [
+      "Reveals a false vision of greatness",
+      "Turns your virtues against you",
+      "Whispers that you are already holy"
+    ]
+  },
+  {
+    "id": "acedia-elite",
+    "name": "Lord of Sloth",
+    "orthodoxName": "Acedia",
+    "symbol": "A",
+    "weakness": "love",
+    "baseHp": 20,
+    "baseDamage": 3,
+    "floorMinimum": 5,
+    "isElite": true,
+    "description": "The deep form of acedia — not laziness but a total withdrawal from being. It has made peace with the void.",
+    "intent": [
+      "Empties every effort of meaning",
+      "Makes the present moment unbearable",
+      "Suggests that love itself is delusion"
+    ]
+  },
+  {
+    "id": "kenodoxia-elite",
+    "name": "Prince of Vanity",
+    "orthodoxName": "Kenodoxia",
+    "symbol": "K",
+    "weakness": "wisdom",
+    "baseHp": 28,
+    "baseDamage": 5,
+    "floorMinimum": 5,
+    "isElite": true,
+    "description": "The prince of all performance. It has lived so long among those who pray to be seen that it has become indistinguishable from piety.",
+    "intent": [
+      "Mirrors your best qualities back as pride",
+      "Offers fame as a form of holiness",
+      "Makes discernment itself feel like vanity"
+    ]
+  },
+  {
+    "id": "thymos-elite",
+    "name": "Duke of Wrath",
+    "orthodoxName": "Thymos",
+    "symbol": "T",
+    "weakness": "temperance",
+    "baseHp": 32,
+    "baseDamage": 6,
+    "floorMinimum": 5,
+    "isElite": true,
+    "description": "Ancient wrath that has become a structure. It no longer requires a cause — the burning is its own justification now.",
+    "intent": [
+      "Calls up every old wound",
+      "Makes peace feel like cowardice",
+      "Strikes with the force of accumulated grievance"
+    ]
+  },
+  {
+    "id": "porneia-elite",
+    "name": "Seraph of Corruption",
+    "orthodoxName": "Porneia",
+    "symbol": "L",
+    "weakness": "courage",
+    "baseHp": 24,
+    "baseDamage": 5,
+    "floorMinimum": 5,
+    "isElite": true,
+    "description": "A demonic mockery of the seraphim. It offers a counterfeit of divine union — intimacy without the Cross, fullness without kenosis.",
+    "intent": [
+      "Offers ecstasy as a substitute for theosis",
+      "Makes self-surrender feel like self-destruction",
+      "Corrupts every longing for God into something lesser"
+    ]
+  }
+]
