@@ -10,5 +10,113 @@
       { "id": "c2", "text": "Ask why the rule is structured this way", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
       { "id": "c3", "text": "Offer to take an additional fast", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
     ]
+  },
+  {
+    "id": "mn-002",
+    "category": "monastic",
+    "title": "The Cell",
+    "narrative": "The elder's direction: stay in your cell. You are not confined — the door is unlocked. But everything the world offers is outside it, and everything the soul requires is inside. After three days, you begin to understand that the cell is not a room. It is a practice.",
+    "orthodoxConcept": "Hesychasm",
+    "choices": [
+      { "id": "c1", "text": "Stay and meet what the cell brings", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Read until you stop running from silence", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Pray the hours without leaving", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "mn-003",
+    "category": "monastic",
+    "title": "The Novice Master",
+    "narrative": "He corrects you seventeen times in a single morning. Not harshly — with patience, which is harder to receive. Each correction is accurate. By the seventeenth you feel the choice: receive it as teaching or receive it as attack. The monk watches to see which you choose.",
+    "orthodoxConcept": "Obedience",
+    "choices": [
+      { "id": "c1", "text": "Bow and say thank you each time", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Ask what he sees that you cannot", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Correct what he named without speaking", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "mn-004",
+    "category": "monastic",
+    "title": "The Chapter of Faults",
+    "narrative": "Once a week, the community gathers. Any monk may confess a fault before the others. An older monk speaks: 'I judged a brother in my heart and called it discernment.' The room is completely still. No one corrects him. No one praises him. The silence is the absolution.",
+    "orthodoxConcept": "Metanoia",
+    "choices": [
+      { "id": "c1", "text": "Confess what you have been holding", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Receive the silence as your own", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Pray for the monk who spoke", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "mn-005",
+    "category": "monastic",
+    "title": "The Kitchen",
+    "narrative": "For three months, obedience assigns you to the kitchen. Onions and soup and dishwater. The abbot who runs the kitchen is known as the most advanced hesychast in the community. He has not been given the chance to pray in silence for thirty years. He is never not praying.",
+    "orthodoxConcept": "Askesis",
+    "choices": [
+      { "id": "c1", "text": "Chop the onions with full attention", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c2", "text": "Ask him to teach you while you work", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Serve the evening meal with care", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "mn-006",
+    "category": "monastic",
+    "title": "The Sick Brother",
+    "narrative": "He has been ill for six months. The monastery rule permits reduced vigils for the sick, but he insists on attending all of them. The infirmarian has asked the abbot to forbid it. The abbot has not yet decided. He asks your opinion, which surprises you.",
+    "orthodoxConcept": "Philoxenia",
+    "choices": [
+      { "id": "c1", "text": "Say the love that drives him is worth the cost", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Say the body is also a gift to protect", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Say you do not know and bow", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
+  },
+  {
+    "id": "mn-007",
+    "category": "monastic",
+    "title": "The Midnight Canon",
+    "narrative": "You have been awake for nineteen hours. The canon is long. The reader's voice fills the dark chapel and the words are entering you not through understanding but through repetition, the way a stream enters stone. You are not sure you are awake. Something in you is.",
+    "orthodoxConcept": "Nepsis",
+    "choices": [
+      { "id": "c1", "text": "Stay standing until the last amen", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Let the words carry you without understanding", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c3", "text": "Offer the weariness as the prayer", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "mn-008",
+    "category": "monastic",
+    "title": "The Departure",
+    "narrative": "A monk has decided to leave. He has been here twelve years. He says nothing is wrong; he simply feels called elsewhere. The community does not argue. The elder blesses him at the gate, and adds: 'I hope you find what you are looking for. But I suspect it is here.'",
+    "orthodoxConcept": "Stability",
+    "choices": [
+      { "id": "c1", "text": "Walk with him to the gate in silence", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Ask him what called him elsewhere", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Return to your cell and examine your own callings", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
+  },
+  {
+    "id": "mn-009",
+    "category": "monastic",
+    "title": "Lectio Divina",
+    "narrative": "The text is read once quickly, then slowly, then once more in silence. Not study — encounter. The fathers distinguished between theology as information and theology as presence. The same verse that ran through you yesterday lands differently today. You are not the same reader.",
+    "orthodoxConcept": "Theoria",
+    "choices": [
+      { "id": "c1", "text": "Read until the text reads you", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c2", "text": "Memorize the verse that landed", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c3", "text": "Sit in silence after the third reading", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
+  },
+  {
+    "id": "mn-010",
+    "category": "monastic",
+    "title": "The Elder's Silence",
+    "narrative": "You asked him a question two weeks ago. He has not answered. He has not forgotten — you have seen him pause twice when you passed, as if gathering something. Today he calls you in and says four words. They answer the question, and three others you have not yet thought to ask.",
+    "orthodoxConcept": "Diakrisis",
+    "choices": [
+      { "id": "c1", "text": "Receive the four words without adding more", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c2", "text": "Ask him what the other three questions are", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Bow and go practice the answer", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } }
+    ]
   }
 ]

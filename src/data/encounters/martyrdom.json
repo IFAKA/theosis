@@ -1,6 +1,6 @@
 [
   {
-    "id": "mr-001",
+    "id": "mt-001",
     "category": "martyrdom",
     "title": "The Last Choice",
     "narrative": "A figure stands at a crossroads. He was a soldier once. He was offered his life in exchange for a single denial. He refused. His eyes are calm. He looks at you and asks: 'What would you have done?'",
@@ -9,6 +9,114 @@
       { "id": "c1", "text": "'I would have died with you.'", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
       { "id": "c2", "text": "'I do not know. Lord, have mercy.'", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
       { "id": "c3", "text": "You remain silent and bow your head.", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "mt-002",
+    "category": "martyrdom",
+    "title": "The Arena",
+    "narrative": "Forty soldiers stand on the frozen lake, stripped of armor, ordered to recant. One breaks and runs for the warm bathhouse on the shore. Forty-one enter the Kingdom. The guard watching from the bank strips off his own armor and walks out onto the ice to take the empty place.",
+    "orthodoxConcept": "Martyria",
+    "choices": [
+      { "id": "c1", "text": "Stand with the thirty-nine on the ice", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Pray for the one who ran", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Ask what the guard saw that moved him", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "mt-003",
+    "category": "martyrdom",
+    "title": "The Letter",
+    "narrative": "Written the night before his execution. Not theology — names. He writes every name he can remember: a servant who showed him kindness, an enemy he does not name but prays for, his mother. The letter takes longer than the theology would have. He folds it carefully.",
+    "orthodoxConcept": "Agape",
+    "choices": [
+      { "id": "c1", "text": "Write the names you carry", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Pray each name he wrote", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Ask what it means to love this specifically", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "mt-004",
+    "category": "martyrdom",
+    "title": "The Iconoclast's Demand",
+    "narrative": "He has been a painter of icons for forty years. They have found him. He can renounce the practice, turn over his pigments, and live. Or he can remain what he is. He does not deliberate. He asks if he may pray first. They say no. He begins to pray.",
+    "orthodoxConcept": "Witness",
+    "choices": [
+      { "id": "c1", "text": "Pray with him", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Ask what image he prays before in this moment", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Bow toward what he is protecting", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "mt-005",
+    "category": "martyrdom",
+    "title": "The Deacon Stephen",
+    "narrative": "They are stoning him and his face is like an angel's — the text says this precisely. He looks up and sees the heavens opened. His last words are not his own: he prays the prayer Christ prayed from the cross. Forgive them. A young man named Saul holds the coats of those throwing the stones.",
+    "orthodoxConcept": "Protomartyr",
+    "choices": [
+      { "id": "c1", "text": "Pray forgiveness for the one holding coats", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Look up where Stephen was looking", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c3", "text": "Ask what Stephen saw that changed his face", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "mt-006",
+    "category": "martyrdom",
+    "title": "The Night Before",
+    "narrative": "She is seventeen. She was arrested this morning. She is not afraid, which is the strangest part — she says she is not afraid, and it is clearly true. She eats the bread they bring her. She asks the guard his name. She spends the night in the Jesus Prayer. Dawn comes.",
+    "orthodoxConcept": "Nepsis",
+    "choices": [
+      { "id": "c1", "text": "Keep vigil with her through the night", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Ask her what the prayer does in her body", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Learn the guard's name as she did", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "mt-007",
+    "category": "martyrdom",
+    "title": "The Confessor",
+    "narrative": "He did not die. The label matters to the tradition: a confessor suffers and survives, bearing the marks in the body. He walks with a limp. He does not explain how. When people ask what it was like he says: 'I was not there alone.' He never elaborates.",
+    "orthodoxConcept": "Confession of Faith",
+    "choices": [
+      { "id": "c1", "text": "Walk beside him without asking", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c2", "text": "Ask who was with him", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Let his presence teach you", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
+  },
+  {
+    "id": "mt-008",
+    "category": "martyrdom",
+    "title": "The Relics",
+    "narrative": "Bones beneath the altar. The tradition is not morbid about this — it places the Eucharist above the bodies of witnesses as a statement about continuity. The living and the dead share the same table. They are not gone. They are present in a different mode.",
+    "orthodoxConcept": "Communion of Saints",
+    "choices": [
+      { "id": "c1", "text": "Kneel at the altar knowing who is beneath", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Ask a saint to intercede for someone you love", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Receive the Eucharist in their company", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } }
+    ]
+  },
+  {
+    "id": "mt-009",
+    "category": "martyrdom",
+    "title": "The Execution Order",
+    "narrative": "They brought it to the bishop first, to see if he would sign. He read it. He returned it unsigned. They told him what signing would spare him. He told them he was aware. He returned it unsigned a second time. They did not bring it a third time.",
+    "orthodoxConcept": "Martyria",
+    "choices": [
+      { "id": "c1", "text": "Return the order unsigned", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Ask what he read that gave him certainty", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Pray for those who brought it", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "mt-010",
+    "category": "martyrdom",
+    "title": "The Red Martyrdom",
+    "narrative": "The tradition distinguishes: white martyrdom is the daily dying of the monastic life. Red martyrdom is the death of the body. The fathers said both are the same act in different measure — the surrender of what you most want to hold. Most of us are called to the white.",
+    "orthodoxConcept": "White Martyrdom",
+    "choices": [
+      { "id": "c1", "text": "Surrender the thing you are holding today", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c2", "text": "Ask what the white martyrdom asks of you specifically", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Accept that small deaths count", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
     ]
   }
 ]

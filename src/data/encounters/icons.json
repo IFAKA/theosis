@@ -10,5 +10,113 @@
       { "id": "c2", "text": "Ask her intercession for the fallen", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
       { "id": "c3", "text": "Touch the icon with reverence", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
     ]
+  },
+  {
+    "id": "ic-002",
+    "category": "icons",
+    "title": "The Pantocrator",
+    "narrative": "Christ as ruler of all, right hand raised in blessing. The left holds the Gospels open to a page you cannot read from here. What arrests you is the eyes — not judging, not forgiving. Witnessing.",
+    "orthodoxConcept": "Pantocrator",
+    "choices": [
+      { "id": "c1", "text": "Stand under his gaze without flinching", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Bow and do not look up", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Ask him what the open page says", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "ic-003",
+    "category": "icons",
+    "title": "The Descent into Hades",
+    "narrative": "Christ stands on the shattered gates of Hades, reaching into the tomb to pull Adam up by the wrist. Adam is not climbing. He is being lifted. The icon makes no room for self-rescue.",
+    "orthodoxConcept": "Anastasis",
+    "choices": [
+      { "id": "c1", "text": "Extend your hand as Adam does", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Ask what it cost him to descend", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Kneel at the broken gates", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "ic-004",
+    "category": "icons",
+    "title": "The Three Holy Youths",
+    "narrative": "Shadrach, Meshach, Abednego stand in the fire. A fourth figure is with them. The icon does not explain who the fourth is. The fire is still fire. They are simply not burning.",
+    "orthodoxConcept": "Theophany",
+    "choices": [
+      { "id": "c1", "text": "Step toward the fire", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Pray the names of those in the flames", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Ask who the fourth figure is", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "ic-005",
+    "category": "icons",
+    "title": "The Holy Trinity",
+    "narrative": "Three angels at a table. An open space at the front. Rublev painted it so that the viewer enters the composition — you are not looking at the Trinity, you are being invited in. The empty seat has always been for you.",
+    "orthodoxConcept": "Perichoresis",
+    "choices": [
+      { "id": "c1", "text": "Sit in the open seat", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Remain standing in reverence", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c3", "text": "Ask what being invited means", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "ic-006",
+    "category": "icons",
+    "title": "The Ladder of Divine Ascent",
+    "narrative": "Monks climb a ladder toward Christ at the top. Demons hang from the rungs pulling them off. Some fall. One, near the top, looks down. The Church Fathers said this was the most dangerous moment — when you can see how far you have come.",
+    "orthodoxConcept": "Theosis",
+    "choices": [
+      { "id": "c1", "text": "Look up, not down", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Climb without counting rungs", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Reach back for the monk behind you", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "ic-007",
+    "category": "icons",
+    "title": "The Transfiguration",
+    "narrative": "Christ blazes white on Tabor. Moses and Elijah flank him. Peter, James, and John have fallen to the ground — not in prayer but in overwhelm, hands over their faces. The light is not metaphorical. The fathers said it was increated, the same light given to the saints in theosis.",
+    "orthodoxConcept": "Taboric Light",
+    "choices": [
+      { "id": "c1", "text": "Shield your eyes and remain standing", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Fall to the ground as the disciples did", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Open your eyes to the light", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "ic-008",
+    "category": "icons",
+    "title": "The Nativity",
+    "narrative": "The cave is dark. The star illuminates it from above. Mary lies exhausted, turned away from the child — not abandonment, the fathers wrote, but contemplation. Joseph sits apart, head in his hand, wrestling with something the icon does not name.",
+    "orthodoxConcept": "Kenosis",
+    "choices": [
+      { "id": "c1", "text": "Kneel at the manger in the dark", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Sit with Joseph in his struggle", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Trace the path of the star", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "ic-009",
+    "category": "icons",
+    "title": "The Dormition",
+    "narrative": "The Theotokos lies on her deathbed. The apostles crowd around her. Christ stands at the center holding an infant — her soul, wrapped and radiant. She died as she lived: in surrender. The icon renders death not as ending but as return.",
+    "orthodoxConcept": "Dormition",
+    "choices": [
+      { "id": "c1", "text": "Stand with the apostles in vigil", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Look at what Christ holds", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Pray the Kontakion of Dormition", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "ic-010",
+    "category": "icons",
+    "title": "The Last Judgment",
+    "narrative": "The scroll of deeds unrolls across the top of the image. The sheep to the right. The goats to the left. The river of fire runs through the middle. What strikes you is not the fire — it is that the same Christ who feeds the sheep is the same Christ the goats would not recognize.",
+    "orthodoxConcept": "Parousia",
+    "choices": [
+      { "id": "c1", "text": "Ask to stand with the merciful", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Examine your deeds against the scroll", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Pray for those in the fire", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } }
+    ]
   }
 ]
