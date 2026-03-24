@@ -2,13 +2,121 @@
   {
     "id": "dm-001",
     "category": "demonic",
-    "title": "The Voice in the Dark",
-    "narrative": "A voice speaks from the shadows. It knows your name. It lists your failures one by one, accurately. It ends with: 'You will never be enough.'",
-    "orthodoxConcept": "Logismoi",
+    "title": "You Have Achieved Much",
+    "narrative": "It does not come as a monster. It comes as a thought — warm, reasonable, deserved. You have walked far. You have suffered. The voice is not wrong about the facts. Prelest operates this way: not through lies but through a truth held upside down, with the self at the center.",
+    "orthodoxConcept": "Prelest",
     "choices": [
-      { "id": "c1", "text": "Rebuke it in the name of Christ", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
-      { "id": "c2", "text": "Agree with it and offer repentance", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
-      { "id": "c3", "text": "Ignore it and press forward", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+      { "id": "c1", "text": "Give thanks and continue walking", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Trace where this thought came from", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Rest — but on your knees", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "dm-002",
+    "category": "demonic",
+    "title": "Nothing Matters",
+    "narrative": "Not a voice but a weight. Everything you have done feels thin, unconvincing, temporary. The dungeon ahead holds nothing worth finding. The fathers called this acedia — not laziness but the soul's refusal to be where it is. Evagrius said it was the most dangerous of the demons.",
+    "orthodoxConcept": "Acedia",
+    "choices": [
+      { "id": "c1", "text": "Move your body before your heart follows", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Name what you still love, however small", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Stay with the weight until it shifts", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "dm-003",
+    "category": "demonic",
+    "title": "They Will Notice",
+    "narrative": "You imagine the moment of return — the recognition in their eyes, the stories told about what you did here. Not greed. Not pride, exactly. Only the quiet wish to be seen. Kenodoxia, the fathers wrote, is vainglory: the desire to receive glory that belongs to God. Its root is thin but its branches reach everywhere.",
+    "orthodoxConcept": "Kenodoxia",
+    "choices": [
+      { "id": "c1", "text": "Do the next thing as if no one will ever know", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Ask whose glory you are seeking", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Redirect the wish into action without audience", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } }
+    ]
+  },
+  {
+    "id": "dm-004",
+    "category": "demonic",
+    "title": "The Injustice Demands a Response",
+    "narrative": "It was unjust. That much is true. The anger is not wrong in its object — it is right. Thymos, the passionate faculty, was made for exactly this. But the fathers noted that even righteous anger, held too long, alters what it passes through. The fire meant for the enemy has begun to burn the one who carries it.",
+    "orthodoxConcept": "Thymos",
+    "choices": [
+      { "id": "c1", "text": "Act once, precisely, then release it", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c2", "text": "Pray for the one who wronged you", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Name what you are protecting, not what you are against", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "dm-005",
+    "category": "demonic",
+    "title": "Only Comfort",
+    "narrative": "It is cold and you are tired. What presents itself now is small — not a vice, only a rest, only a warmth, only comfort. Porneia rarely arrives as lust. It arrives as relief. The fathers were not against pleasure; they were against pleasure as a god. The question is not what you want but what you are making of the wanting.",
+    "orthodoxConcept": "Porneia",
+    "choices": [
+      { "id": "c1", "text": "Name the want and offer it up", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c2", "text": "Move before the thought takes root", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c3", "text": "Ask what is actually hungry here", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "dm-006",
+    "category": "demonic",
+    "title": "The Bright Messenger",
+    "narrative": "It came in the form of light — radiant, beautiful, speaking of God's love for you specifically. It confirmed your path, praised your progress, and offered a vision of your destiny. The fathers read this in Paul's second letter to Corinth: Satan transforms himself into an angel of light. The test is simple: does it exalt you or empty you?",
+    "orthodoxConcept": "Prelest",
+    "choices": [
+      { "id": "c1", "text": "Reject it without investigation", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Test its word against the tradition", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Bow to the ground and ask it to depart", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } }
+    ]
+  },
+  {
+    "id": "dm-007",
+    "category": "demonic",
+    "title": "You Have Tried Enough",
+    "narrative": "Not the sudden weight this time — the slow erosion. You have fought before. You have tried this path before. It led here. The voice is gentle, genuinely kind-sounding: 'You have given what you had. It is enough now. Stop.' The fathers knew this variant. It comes in the second half of the journey, when the first fervor is spent.",
+    "orthodoxConcept": "Acedia",
+    "choices": [
+      { "id": "c1", "text": "Take one step and then one more", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Find someone who needs what you still have", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Ask whether 'enough' was ever yours to give", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
+  },
+  {
+    "id": "dm-008",
+    "category": "demonic",
+    "title": "The Posture of Prayer",
+    "narrative": "You are about to pray. Something in you adjusts — checks the angle, considers the posture, wonders if it looks right. Not vanity about your body. Kenodoxia is subtler: the need for your piety to have a witness. The Lord addressed this precisely, the fathers noted — not because external prayer is wrong but because the audience changes everything.",
+    "orthodoxConcept": "Kenodoxia",
+    "choices": [
+      { "id": "c1", "text": "Turn your face to the wall and pray anyway", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Notice the thought and let it pass without feeding it", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Pray shorter than you planned", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "dm-009",
+    "category": "demonic",
+    "title": "The Consuming Fire",
+    "narrative": "The anger was clean at first — a response to real wrong, proportionate, pointed. But it has been months. You have rehearsed the injury so many times the rehearsal has become a home. The fathers called this the mutation of thymos: righteous passion curdled into a structure you now live inside. It has become easier than peace.",
+    "orthodoxConcept": "Thymos",
+    "choices": [
+      { "id": "c1", "text": "Ask what it would cost to stop rehearsing it", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c2", "text": "Grieve what was lost and let the anger follow", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Fast from the rehearsal for one day", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "dm-010",
+    "category": "demonic",
+    "title": "Without the Cross",
+    "narrative": "It offers you theosis directly — union with God, bypassing what remains. No more pain. No more descent. Only the ascent. It is not a temptation to sin but a temptation to arrive at the destination by a road that skips the Cross. The fathers knew this as the most sophisticated of all: the offer of the goal without the way.",
+    "orthodoxConcept": "Kenosis",
+    "choices": [
+      { "id": "c1", "text": "Refuse — the way is the destination", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c2", "text": "Bow toward what you must walk through", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c3", "text": "Empty yourself of the offer itself", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
     ]
   }
 ]

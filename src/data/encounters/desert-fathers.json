@@ -10,5 +10,113 @@
       { "id": "c2", "text": "Ask him to teach you", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
       { "id": "c3", "text": "Leave him undisturbed", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
     ]
+  },
+  {
+    "id": "df-002",
+    "category": "desert-fathers",
+    "title": "The Sinai Brotherhood",
+    "narrative": "The monks at Sinai have not stopped for three days. Lord Jesus Christ, Son of God, have mercy on me, a sinner. The prayer moves through them like breath, like heartbeat. One turns to you: even here, nepsis does not cease.",
+    "orthodoxConcept": "Nepsis",
+    "choices": [
+      { "id": "c1", "text": "Join their vigil in silence", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Ask them to pray for your enemies", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Learn the prayer's rhythm by watching", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } }
+    ]
+  },
+  {
+    "id": "df-003",
+    "category": "desert-fathers",
+    "title": "The Persistent Thought",
+    "narrative": "It came at dawn and it is still here at compline. Not evil — only a small, reasonable thought about something you should have done differently. The fathers called these logismoi: thoughts that enter to make their home. A single root, if unwatched, becomes a forest.",
+    "orthodoxConcept": "Logismoi",
+    "choices": [
+      { "id": "c1", "text": "Name it aloud and release it", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c2", "text": "Return to the Jesus Prayer", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c3", "text": "Walk until the thought cannot follow", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } }
+    ]
+  },
+  {
+    "id": "df-004",
+    "category": "desert-fathers",
+    "title": "The Philokalia",
+    "narrative": "Beneath the rubble: a water-damaged book. The cover reads Philokalia — love of the beautiful. Most pages have fused. But one passage survives: 'The nous, cleansed of passion, becomes capable of theoria — the direct vision of God.' You sit with it in the dark.",
+    "orthodoxConcept": "Theoria",
+    "choices": [
+      { "id": "c1", "text": "Copy the passage onto your palm", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c2", "text": "Leave it for the next warrior", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Sit and read until the light fails", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "df-005",
+    "category": "desert-fathers",
+    "title": "Apatheia",
+    "narrative": "The old man has been called a fraud, a coward, and worthless — twice, in front of his disciples. He pours another cup of water. Not from coldness. The fathers called this apatheia: not the death of feeling, but its purification. He feels everything and is moved by none of it.",
+    "orthodoxConcept": "Apatheia",
+    "choices": [
+      { "id": "c1", "text": "Ask how he learned this", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c2", "text": "Speak in his defense", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c3", "text": "Say nothing and observe", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "df-006",
+    "category": "desert-fathers",
+    "title": "The Basin of Water",
+    "narrative": "The man who betrayed him arrived at dusk. The abba said nothing. He brought out a basin. He knelt and washed the man's feet in silence. No explanation was offered or required. What breaks you here is not the gesture — it is that he meant it.",
+    "orthodoxConcept": "Kenosis",
+    "choices": [
+      { "id": "c1", "text": "Ask the abba how he forgave", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c2", "text": "Kneel and help him", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c3", "text": "Watch until you understand why", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } }
+    ]
+  },
+  {
+    "id": "df-007",
+    "category": "desert-fathers",
+    "title": "The Third Week",
+    "narrative": "Forty days in the desert. The hunger came, became familiar, then receded into the background like weather. What remains is something the fathers called sobriety — the body no longer screaming, the nous grown quiet and alert. The enemy chose this moment to appear.",
+    "orthodoxConcept": "Askesis",
+    "choices": [
+      { "id": "c1", "text": "Stand your ground, unmoved", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Turn the fast into prayer", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } },
+      { "id": "c3", "text": "Offer the hunger as intercession", "hoverHint": "+Love", "virtueEffects": { "love": 1 } }
+    ]
+  },
+  {
+    "id": "df-008",
+    "category": "desert-fathers",
+    "title": "The Refusal",
+    "narrative": "Three monks came seeking a spiritual father. He turned each one away, saying: I am not worthy to teach, and I have nothing to give. Two left arguing. One bowed, said 'forgive me,' and turned to go. The elder called after only the last one: Stay.",
+    "orthodoxConcept": "Humility",
+    "choices": [
+      { "id": "c1", "text": "Leave without argument", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } },
+      { "id": "c2", "text": "Ask him what he saw in the third monk", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c3", "text": "Wait in silence until he speaks", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "df-009",
+    "category": "desert-fathers",
+    "title": "Night Vigil",
+    "narrative": "Three in the morning. The chapel is cold enough to see your breath. Two candles burn against an icon of Christ. The reader's voice has gone hoarse but continues. The body has given out several times and been gathered up again. This is what the fathers meant by love — not feeling, but staying.",
+    "orthodoxConcept": "Agape",
+    "choices": [
+      { "id": "c1", "text": "Stay until dawn", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c2", "text": "Take the reader's place", "hoverHint": "+Love", "virtueEffects": { "love": 1 } },
+      { "id": "c3", "text": "Kneel in the cold and do not move", "hoverHint": "+Temperance", "virtueEffects": { "temperance": 1 } }
+    ]
+  },
+  {
+    "id": "df-010",
+    "category": "desert-fathers",
+    "title": "The Reasonable Voice",
+    "narrative": "The thought arrived at midday, which the fathers named the most dangerous hour. 'You have worked enough. Even God rested on the seventh day.' It was not wrong, exactly. It spoke like wisdom, like mercy. The test, Abba Moses wrote, is not the thought's content — it is its fruit.",
+    "orthodoxConcept": "Diakrisis",
+    "choices": [
+      { "id": "c1", "text": "Test the thought by its fruit, not its face", "hoverHint": "+Wisdom", "virtueEffects": { "wisdom": 1 } },
+      { "id": "c2", "text": "Refuse to engage it and return to work", "hoverHint": "+Courage", "virtueEffects": { "courage": 1 } },
+      { "id": "c3", "text": "Pray for discernment before deciding", "hoverHint": "+Humility", "virtueEffects": { "humility": 1 } }
+    ]
   }
 ]
