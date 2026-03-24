@@ -1,4 +1,4 @@
-import type { PlayerState, VirtueStats } from '../player.js';
+import type { PlayerState, VirtueStats, RunStats } from '../player.js';
 import { VIRTUE_NAMES, MAX_VIRTUE, THEOSIS_THRESHOLD } from './stats.js';
 
 export function raiseBaseline(baseline: VirtueStats): VirtueStats {
@@ -34,6 +34,15 @@ export function applyVirtueChange(
 export function applyDeath(state: PlayerState): PlayerState {
   const newBaseline = raiseBaseline(state.baseline);
   const newVirtues: VirtueStats = { ...newBaseline };
+  const nextRun = state.runCount + 1;
+  const freshStats: RunStats = {
+    runNumber: nextRun,
+    floorsCleared: 0,
+    enemiesDefeated: 0,
+    killedBy: null,
+    peakVirtues: { ...newVirtues },
+    encountersSeen: [],
+  };
   return {
     ...state,
     baseline: newBaseline,
@@ -41,6 +50,7 @@ export function applyDeath(state: PlayerState): PlayerState {
     hp: state.maxHp,
     floor: 1,
     isDead: false,
-    runCount: state.runCount + 1,
+    runCount: nextRun,
+    currentRunStats: freshStats,
   };
 }

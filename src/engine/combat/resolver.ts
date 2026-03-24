@@ -6,14 +6,16 @@ import type { EnemyIntent } from './ai.js';
 import { calculateDamage } from './damage.js';
 import { getEnemyIntent, executeEnemyIntent } from './ai.js';
 import { tickEffects } from './effects.js';
-import { applyVirtueChange } from '../virtue/progression.js';
+import { applyVirtueChange, checkTheosis } from '../virtue/progression.js';
 import type { EnemyTemplate } from '../enemies/types.js';
+import { VIRTUE_NAMES } from '../virtue/stats.js';
 
 export type CombatResult =
   | { outcome: 'enemy_defeated'; xpGained: number }
   | { outcome: 'player_acted' }
   | { outcome: 'player_died' }
-  | { outcome: 'floor_cleared' };
+  | { outcome: 'floor_cleared' }
+  | { outcome: 'theosis_achieved' };
 
 export type CombatState = {
   player: PlayerState;
@@ -48,10 +50,23 @@ export function playerTurn(
   // Agape: heal 2 HP
   const hpBonus = action.id === 'agape' ? 2 : 0;
 
+  // Track run stats on kill
+  const stats = state.player.currentRunStats;
+  const updatedStats = newEnemyHp <= 0
+    ? {
+        ...stats,
+        enemiesDefeated: stats.enemiesDefeated + 1,
+        peakVirtues: Object.fromEntries(
+          VIRTUE_NAMES.map(v => [v, Math.max(stats.peakVirtues[v], newVirtues[v])])
+        ) as typeof newVirtues,
+      }
+    : stats;
+
   const player: PlayerState = {
     ...state.player,
     virtues: newVirtues,
     hp: Math.min(state.player.maxHp, state.player.hp + hpBonus),
+    currentRunStats: updatedStats,
   };
 
   const playerEffects = tickEffects(state.playerEffects);
@@ -66,7 +81,12 @@ export function enemyTurn(state: CombatState, enemyId: string): CombatState {
 
   const intent = getEnemyIntent(template, state.player.floor);
   const newHp = executeEnemyIntent(intent, state.player.hp);
-  const player: PlayerState = { ...state.player, hp: newHp };
+  const killedBy = newHp <= 0 ? template.name : state.player.currentRunStats.killedBy;
+  const player: PlayerState = {
+    ...state.player,
+    hp: newHp,
+    currentRunStats: { ...state.player.currentRunStats, killedBy },
+  };
 
   const prevEffects = state.enemyEffects.get(enemyId) ?? [];
   const newEnemyEffects = new Map(state.enemyEffects);
@@ -78,6 +98,12 @@ export function enemyTurn(state: CombatState, enemyId: string): CombatState {
 
 export function checkCombatEnd(state: CombatState): CombatResult | null {
   if (state.player.hp <= 0) return { outcome: 'player_died' };
-  if (state.enemies.every(e => e.hp <= 0)) return { outcome: 'floor_cleared' };
+  if (state.enemies.every(e => e.hp <= 0)) {
+    if (checkTheosis(state.player.virtues)) {
+      console.log('THEOSIS ACHIEVED');
+      return { outcome: 'theosis_achieved' };
+    }
+    return { outcome: 'floor_cleared' };
+  }
   return null;
 }
