@@ -1,0 +1,62 @@
+[
+  {
+    "concept": "Theosis",
+    "greek": "Θέωσις",
+    "oneLine": "Union with God — becoming by grace what God is by nature.",
+    "source": "St. Athanasius, On the Incarnation",
+    "quote": "God became man so that man might become God.",
+    "readingList": [
+      "On the Incarnation — St. Athanasius",
+      "The Ladder of Divine Ascent — St. John Climacus",
+      "The Philokalia — Various Desert Fathers"
+    ]
+  },
+  {
+    "concept": "Kenosis",
+    "greek": "Κένωσις",
+    "oneLine": "Self-emptying — the voluntary laying down of power for the sake of love.",
+    "source": "Philippians 2:7",
+    "quote": "He emptied himself, taking the form of a servant.",
+    "readingList": [
+      "On the Incarnation — St. Athanasius",
+      "The Way of a Pilgrim — Anonymous Russian",
+      "Humility — Metropolitan Anthony Bloom"
+    ]
+  },
+  {
+    "concept": "Nous",
+    "greek": "Νοῦς",
+    "oneLine": "The eye of the soul — the faculty of direct spiritual perception, darkened by sin, illumined by prayer.",
+    "source": "St. Maximus the Confessor, Centuries on Charity",
+    "quote": "Pure prayer is the activity of the nous stripped of every thought.",
+    "readingList": [
+      "The Philokalia Vol. II — St. Maximus the Confessor",
+      "Orthodox Psychotherapy — Metropolitan Hierotheos Vlachos",
+      "The Mystical Theology of the Eastern Church — Vladimir Lossky"
+    ]
+  },
+  {
+    "concept": "Metanoia",
+    "greek": "Μετάνοια",
+    "oneLine": "Repentance as transformation — not guilt, but a turning of the whole person toward God.",
+    "source": "St. John Chrysostom, On Repentance",
+    "quote": "Repentance is not a moment but a way of life.",
+    "readingList": [
+      "Beginning to Pray — Metropolitan Anthony Bloom",
+      "The Art of Prayer — Igumen Chariton of Valamo",
+      "On Repentance — St. John Chrysostom"
+    ]
+  },
+  {
+    "concept": "Askesis",
+    "greek": "Ἄσκησις",
+    "oneLine": "Spiritual discipline — the training of the body and soul as athlete trains for contest.",
+    "source": "St. John Climacus, The Ladder of Divine Ascent",
+    "quote": "The soul that loves God has no rest except in God.",
+    "readingList": [
+      "The Ladder of Divine Ascent — St. John Climacus",
+      "The Sayings of the Desert Fathers — Various",
+      "Unseen Warfare — St. Nicodemus of the Holy Mountain"
+    ]
+  }
+]
