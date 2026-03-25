@@ -24,7 +24,16 @@ export function detectBuild(virtues: VirtueStats): BuildArchetype {
     return ARCHETYPE_MAP[dominant[0]];
   }
 
-  // Tie: combine archetype names
+  // 3+ way tie: show Balanced
+  if (dominant.length >= 3) {
+    return {
+      name: 'Balanced',
+      dominantVirtue: dominant.join('/'),
+      description: 'Equal in all virtues',
+    };
+  }
+
+  // 2-way tie: combine archetype names
   const names = dominant.map(v => ARCHETYPE_MAP[v].name).join('-');
   return {
     name: names,

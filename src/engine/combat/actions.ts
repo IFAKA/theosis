@@ -8,11 +8,12 @@ export type CombatAction = {
   description: string;
   level: number;
   damageMultiplier: number;
+  effect?: 'heal' | 'shield' | 'debuff' | 'reveal';
   virtueGain?: Partial<Record<VirtueName, number>>;
   cost: number;
 };
 
-type AbilityEntry = { level: number; name: string; damageMultiplier: number; description: string };
+type AbilityEntry = { level: number; name: string; damageMultiplier: number; description: string; effect?: CombatAction['effect'] };
 
 function buildActions(virtue: VirtueName, entries: AbilityEntry[]): CombatAction[] {
   return entries.map(e => ({
@@ -22,7 +23,8 @@ function buildActions(virtue: VirtueName, entries: AbilityEntry[]): CombatAction
     description: e.description,
     level: e.level,
     damageMultiplier: e.damageMultiplier,
-    cost: 0,
+    effect: e.effect,
+    cost: e.effect ? 1 : (e.level >= 5 ? 2 : 1),
   }));
 }
 

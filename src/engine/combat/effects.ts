@@ -1,4 +1,4 @@
-export type EffectType = 'defense_down' | 'attack_down' | 'regen' | 'weakness_revealed';
+export type EffectType = 'defense_down' | 'attack_down' | 'regen' | 'weakness_revealed' | 'shield' | 'attack_up';
 
 export type ActiveEffect = {
   type: EffectType;

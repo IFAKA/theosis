@@ -16,8 +16,8 @@ export function calculateDamage(
   enemy: EnemyTemplate,
   floor: number
 ): number {
-  let base = virtues[action.virtue] * action.damageMultiplier;
-  if (isWeaknessExploited(action, enemy)) base *= 1.5;
-  base += Math.floor(floor / 2);
+  let base = virtues[action.virtue] * action.damageMultiplier + 3;
+  if (isWeaknessExploited(action, enemy)) base *= 2.0;
+  base += action.level * 0.5 + Math.min(Math.floor(floor / 2), 3);
   return Math.max(1, Math.round(base));
 }

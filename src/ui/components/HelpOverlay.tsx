@@ -1,12 +1,16 @@
 import { Box, Text } from 'ink';
 
-type Screen = 'menu' | 'dungeon' | 'combat' | 'encounter' | 'stats' | 'death' | 'theosis';
+type Screen = 'menu' | 'focus_pick' | 'dungeon' | 'combat' | 'encounter' | 'stats' | 'death' | 'theosis' | 'build_reveal' | 'virtue_milestone';
 
 type HelpOverlayProps = {
   screen: Screen;
 };
 
 const CONTROLS: Record<Screen, Array<{ key: string; action: string }>> = {
+  focus_pick: [
+    { key: '1-5 / Up / Down', action: 'Navigate' },
+    { key: 'Enter', action: 'Choose focus' },
+  ],
   menu: [
     { key: 'ENTER', action: 'Begin game' },
     { key: 'S', action: 'Toggle sound' },
@@ -42,6 +46,12 @@ const CONTROLS: Record<Screen, Array<{ key: string; action: string }>> = {
   theosis: [
     { key: 'R', action: 'Play again' },
     { key: 'Q', action: 'Quit' },
+  ],
+  build_reveal: [
+    { key: 'ENTER / Space', action: 'Continue' },
+  ],
+  virtue_milestone: [
+    { key: 'ENTER', action: 'Continue' },
   ],
 };
 

@@ -14,7 +14,8 @@
       "Inflates your pride",
       "Whispers of your superiority",
       "Strikes at your humility"
-    ]
+    ],
+    "mechanic": { "type": "deflect", "chance": 0.30 }
   },
   {
     "id": "acedia",
@@ -31,7 +32,8 @@
       "Drains your resolve",
       "Weighs on your spirit",
       "Whispers of futility"
-    ]
+    ],
+    "mechanic": { "type": "drain" }
   },
   {
     "id": "kenodoxia",
@@ -48,7 +50,8 @@
       "Baits you to show off",
       "Mocks your hidden worth",
       "Demands an audience"
-    ]
+    ],
+    "mechanic": { "type": "mirror" }
   },
   {
     "id": "thymos",
@@ -65,7 +68,8 @@
       "Lashes out furiously",
       "Provokes without cause",
       "Escalates relentlessly"
-    ]
+    ],
+    "mechanic": { "type": "enrage", "bonusDamage": 3 }
   },
   {
     "id": "porneia",
@@ -82,7 +86,8 @@
       "Entices with illusions",
       "Weakens your resolve",
       "Clouds your vision"
-    ]
+    ],
+    "mechanic": { "type": "distract", "chance": 0.25 }
   },
   {
     "id": "prelest-elite",
@@ -99,7 +104,8 @@
       "Reveals a false vision of greatness",
       "Turns your virtues against you",
       "Whispers that you are already holy"
-    ]
+    ],
+    "mechanic": { "type": "deflect", "chance": 0.40 }
   },
   {
     "id": "acedia-elite",
@@ -116,7 +122,8 @@
       "Empties every effort of meaning",
       "Makes the present moment unbearable",
       "Suggests that love itself is delusion"
-    ]
+    ],
+    "mechanic": { "type": "drain" }
   },
   {
     "id": "kenodoxia-elite",
@@ -133,7 +140,8 @@
       "Mirrors your best qualities back as pride",
       "Offers fame as a form of holiness",
       "Makes discernment itself feel like vanity"
-    ]
+    ],
+    "mechanic": { "type": "mirror" }
   },
   {
     "id": "thymos-elite",
@@ -150,7 +158,8 @@
       "Calls up every old wound",
       "Makes peace feel like cowardice",
       "Strikes with the force of accumulated grievance"
-    ]
+    ],
+    "mechanic": { "type": "enrage", "bonusDamage": 4 }
   },
   {
     "id": "porneia-elite",
@@ -167,6 +176,7 @@
       "Offers ecstasy as a substitute for theosis",
       "Makes self-surrender feel like self-destruction",
       "Corrupts every longing for God into something lesser"
-    ]
+    ],
+    "mechanic": { "type": "distract", "chance": 0.35 }
   }
 ]

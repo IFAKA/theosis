@@ -1,6 +1,6 @@
 import { Box, Text } from 'ink';
 import type { EnemyOnFloor } from '../../engine/dungeon/floor.js';
-import type { EnemyTemplate } from '../../engine/enemies/types.js';
+import type { EnemyTemplate, EnemyMechanic } from '../../engine/enemies/types.js';
 import type { EnemyIntent } from '../../engine/combat/ai.js';
 
 type EnemyCardProps = {
@@ -8,6 +8,16 @@ type EnemyCardProps = {
   intent: EnemyIntent | null;
   weaknessRevealed: boolean;
 };
+
+function mechanicLabel(m: EnemyMechanic): string {
+  switch (m.type) {
+    case 'deflect':  return `↩ DEFLECT (${Math.round(m.chance * 100)}% reflect off-weakness)`;
+    case 'drain':    return `▼ DRAIN (halves off-weakness hits)`;
+    case 'mirror':   return `◈ MIRROR (heals 1 on off-weakness hits)`;
+    case 'enrage':   return `▲ ENRAGE (+${m.bonusDamage} dmg on off-weakness)`;
+    case 'distract': return `~ DISTRACT (${Math.round(m.chance * 100)}% miss off-weakness)`;
+  }
+}
 
 export function EnemyCard({ enemy, intent, weaknessRevealed }: EnemyCardProps) {
   const { template } = enemy;
@@ -32,6 +42,7 @@ export function EnemyCard({ enemy, intent, weaknessRevealed }: EnemyCardProps) {
       {weaknessRevealed && (
         <Text color="#00d9ff">⚠ Weak to {template.weakness}</Text>
       )}
+      <Text color="#d4af37">{mechanicLabel(template.mechanic)}</Text>
     </Box>
   );
 }

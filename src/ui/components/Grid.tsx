@@ -12,9 +12,10 @@ type GridProps = {
   visibleTiles: VisibleTiles;
   width: number;
   height: number;
+  exitLocked: boolean;
 };
 
-export function Grid({ map, playerX, playerY, enemies, visibleTiles, width, height }: GridProps) {
+export function Grid({ map, playerX, playerY, enemies, visibleTiles, width, height, exitLocked }: GridProps) {
   const enemyMap = new Map(enemies.map(e => [`${e.x},${e.y}`, e]));
 
   const rows: React.ReactNode[] = [];
@@ -34,7 +35,7 @@ export function Grid({ map, playerX, playerY, enemies, visibleTiles, width, heig
       } else if (enemyMap.has(key)) {
         cells.push(<Text key={key} color="#f87171">ε</Text>);
       } else if (map.exitPos.x === x && map.exitPos.y === y) {
-        cells.push(<Text key={key} color="#00d9ff">{'>'}</Text>);
+        cells.push(<Text key={key} color={exitLocked ? '#7f2020' : '#00d9ff'}>{'>'}</Text>);
       } else {
         const tile = map.map.get(key);
         if (tile === 'wall') {

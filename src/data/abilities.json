@@ -1,7 +1,7 @@
 {
   "humility": [
-    { "level": 1, "name": "Prostration", "damageMultiplier": 0.8, "description": "You prostrate before God. The enemy's next attack is weakened." },
-    { "level": 2, "name": "Kenosis", "damageMultiplier": 0.9, "description": "Self-emptying strike. You pour yourself out, gaining strength in the void." },
+    { "level": 1, "name": "Prostration", "damageMultiplier": 0.8, "effect": "shield", "description": "You prostrate before God. The enemy's next attack is weakened." },
+    { "level": 2, "name": "Kenosis", "damageMultiplier": 0.9, "effect": "shield", "description": "Self-emptying strike. You pour yourself out, gaining strength in the void." },
     { "level": 3, "name": "Stillness", "damageMultiplier": 1.0, "description": "From inner silence, a precise and devastating blow." },
     { "level": 4, "name": "Tears of Repentance", "damageMultiplier": 1.1, "description": "Holy grief dissolves the enemy's defenses." },
     { "level": 5, "name": "Meekness", "damageMultiplier": 1.2, "description": "The meek inherit the earth — and deal significant damage." },
@@ -24,8 +24,8 @@
     { "level": 10, "name": "Resurrection Charge", "damageMultiplier": 2.5, "description": "Death has no dominion. Your final blow carries eternal force." }
   ],
   "temperance": [
-    { "level": 1, "name": "Fast", "damageMultiplier": 1.0, "description": "Abstinence sharpens the will. Removes 1 debuff." },
-    { "level": 2, "name": "Nepsis", "damageMultiplier": 1.1, "description": "Watchfulness — you wait for the perfect moment." },
+    { "level": 1, "name": "Fast", "damageMultiplier": 1.0, "effect": "debuff", "description": "Abstinence sharpens the will. Enemy's next attack -50%." },
+    { "level": 2, "name": "Nepsis", "damageMultiplier": 1.1, "effect": "debuff", "description": "Watchfulness — you wait for the perfect moment. Enemy weakened." },
     { "level": 3, "name": "Enkrateia", "damageMultiplier": 1.2, "description": "Self-mastery. Your body obeys your spirit completely." },
     { "level": 4, "name": "Apatheia", "damageMultiplier": 1.3, "description": "Freedom from passion — you strike without anger or fear." },
     { "level": 5, "name": "Holy Sobriety", "damageMultiplier": 1.4, "description": "Sober in spirit and devastating in precision." },
@@ -36,7 +36,7 @@
     { "level": 10, "name": "Deified Matter", "damageMultiplier": 2.1, "description": "Your body, fully sanctified, becomes an instrument of grace." }
   ],
   "wisdom": [
-    { "level": 1, "name": "Discernment", "damageMultiplier": 1.0, "description": "You see through the mask. Reveals weakness if Wisdom ≥ 3." },
+    { "level": 1, "name": "Discernment", "damageMultiplier": 1.0, "effect": "reveal", "description": "You see through the mask. Reveals enemy weakness." },
     { "level": 2, "name": "Logos Strike", "damageMultiplier": 1.1, "description": "The Word made weapon. Precise as divine reason." },
     { "level": 3, "name": "Theoria", "damageMultiplier": 1.2, "description": "Contemplative vision — you see the enemy's true nature." },
     { "level": 4, "name": "Anagoge", "damageMultiplier": 1.3, "description": "Upward movement — you elevate the fight above its passions." },
@@ -48,9 +48,9 @@
     { "level": 10, "name": "Divine Sophia", "damageMultiplier": 2.2, "description": "Wisdom herself strikes through you. The enemy has no counter." }
   ],
   "love": [
-    { "level": 1, "name": "Agape", "damageMultiplier": 0.6, "description": "Love without condition — heal 2 HP." },
-    { "level": 2, "name": "Philoxenia", "damageMultiplier": 0.8, "description": "Love of the stranger — even your enemy is someone to be redeemed." },
-    { "level": 3, "name": "Intercession", "damageMultiplier": 0.9, "description": "You pray for the fallen. The prayer lands like a blow." },
+    { "level": 1, "name": "Agape", "damageMultiplier": 0.6, "effect": "heal", "description": "Love without condition — heal 2 HP." },
+    { "level": 2, "name": "Philoxenia", "damageMultiplier": 0.8, "effect": "heal", "description": "Love of the stranger — even your enemy is someone to be redeemed. Heal 2 HP." },
+    { "level": 3, "name": "Intercession", "damageMultiplier": 0.9, "effect": "heal", "description": "You pray for the fallen. The prayer lands like a blow. Heal 2 HP." },
     { "level": 4, "name": "Sacrifice", "damageMultiplier": 1.0, "description": "You offer yourself. The demon does not understand this exchange." },
     { "level": 5, "name": "Eros Transformed", "damageMultiplier": 1.1, "description": "Desire fully turned toward God — nothing else has power." },
     { "level": 6, "name": "Mercy Strike", "damageMultiplier": 1.2, "description": "You strike mercifully — quickly, cleanly, without cruelty." },

@@ -14,8 +14,8 @@ Conversion path: Fun roguelike → "Kenosis build OP" → google Orthodox theolo
 ## Current Status
 
 **Active milestone: M3 — UI Layer**
-**Current week: —**
-**Last commit:** `a104dcb` — M2 complete, all content + systems
+**Current week: Week 9-12 (screens built, polish remaining)**
+**Last commit:** `038c3cc` — M3 UI layer: all screens implemented
 
 ## Milestone Progress
 
@@ -24,7 +24,7 @@ Conversion path: Fun roguelike → "Kenosis build OP" → google Orthodox theolo
 | M0: Pre-Production | ✅ COMPLETE | `6fbd01d` | `docs/plans/milestone-0-preproduction.md` |
 | M1: Core Engine | ✅ COMPLETE | `4c8ae13` | `docs/plans/milestone-1-core-engine.md` |
 | M2: Content Layer | ✅ COMPLETE | `a104dcb` | `docs/plans/milestone-2-content-layer.md` |
-| M3: UI Layer | ⬜ NOT STARTED | — | `docs/plans/milestone-3-ui-layer.md` |
+| M3: UI Layer | 🔄 IN PROGRESS | `038c3cc` | `docs/plans/milestone-3-ui-layer.md` |
 | M4: Launch Prep | ⬜ NOT STARTED | — | `docs/plans/milestone-4-launch-prep.md` |
 
 ## M1 Task Tracker
@@ -82,6 +82,52 @@ npm run dev        # hot reload dev server
 npm run build      # esbuild → dist/theosis.mjs
 npm run typecheck  # tsc --noEmit
 ```
+
+## Player Profile — Who You Are Building For
+
+**Gen Alpha optimizer.** Plays Path of Exile, Slay the Spire, Elden Ring. Build theory is their love language.
+
+- **Does NOT read help overlays or menus** — discovers systems through trial and visible feedback
+- **Needs numbers to move on screen** — silent progression = invisible progression = they quit
+- **Googles words that sound powerful** — "Hesychast", "Kenodoxia", "Prelest" work IF the game makes them feel significant in a moment of victory
+- **Curious after a dopamine hit, not before** — the theological hook lands after winning, never before
+- **Responds to identity** — "You are a Hesychast" creates attachment; unlabeled stats do not
+- **Will not reach the theosis screen by accident** — every step of the funnel must be mechanically guaranteed
+
+## Conversion Funnel — Never Break These
+
+The outcome is Orthodox conversion. Every feature exists to serve this funnel:
+
+```
+Fun roguelike → "Kenosis build OP" → google Orthodox theology → Discord → conversion
+```
+
+Before marking ANY milestone complete, verify each link in this chain:
+
+1. **Fun roguelike** → Is combat rewarding with visible feedback? Can player see build developing?
+2. **"Kenosis build OP"** → Does virtue visibly grow after kills? Does the build name appear prominently?
+3. **Google Orthodox theology** → Are Orthodox terms (Prelest, Kenodoxia, Hesychast) shown in moments of significance?
+4. **Discord** → Is the theosis screen reachable? Does it show the Discord link?
+
+**The theosis screen is the conversion CTA. If it is unreachable, the entire funnel is broken.**
+
+## Critical Wiring Checklist
+
+Run this before marking any milestone complete:
+
+- [ ] `checkTheosis()` is called in the game loop after any virtue change
+- [ ] Theosis screen transition is wired and reachable through normal play
+- [ ] Exit is gated — player cannot advance floor without defeating all enemies
+- [ ] Virtue growth is visible on screen at the moment it happens (`+1 VirtueName`)
+- [ ] Orthodox terms appear in the first 5 minutes of play (enemy names, build names)
+- [ ] Discord link on theosis screen is real and active
+
+## Acceptance Criteria Format
+
+**Wrong:** "Feature X exists and renders correctly."
+**Right:** "Player encounters X naturally during normal play and the Orthodox term Y appears on screen."
+
+Always frame acceptance criteria as observed player behavior, not feature presence.
 
 ## Rules
 
